@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Task } from "../tasksdata/task";
+import { Task } from "../types/task";
 
 const API_BASE_URL = (process.env.REACT_APP_API_URL || "http://localhost:8000") + "/tasks";
 
